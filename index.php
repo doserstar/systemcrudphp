@@ -3,43 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cadastro</title>
+    <title>Empresa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>Cadastro</h1>
-
-        <form action="cadastro_script.php" method="POST">
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" placeholder="Nome completo" name="nome" required>
-            <label for="nome">Nome completo</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" placeholder="Endereço" name="endereco">
-            <label for="endereco">Endereço</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" placeholder="Telefone" name="telefone">
-            <label for="telefone">Telefone</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" placeholder="E-mail" name="email">
-            <label for="email">E-mail</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="date" class="form-control" placeholder="Data de Nascimento<" name="data_nascimento">
-            <label for="data_nascimento">Data de Nascimento</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="submit" class="btn btn-success">
-        </div>
-
-
-            </form>
-            </div>
+        <div class="jumbotron">
+            <h1 class="display-4">Cadastro Web</h1>
+            <p class="lead">Sistema simplificado de cadastro, Base de estudos para criação de sistemas Web com PHP e MySQL</p>
+            <hr class="my-4">
+            <p>Acesse as funções</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="telacadastro.php" role="button">Cadastro <i class="bi bi-plus-square"></i></a>
+              <a class="btn btn-primary btn-lg" href="pesquisa.php" role="button">Pesquisa <i class="bi bi-search"></i></a>
+            </p>
+          </div>
         </div>
     </div>
 
